@@ -139,7 +139,7 @@ const EditProduct = ({ productId }) => {
 
             <div className="grid grid-cols-4 items-center gap-4">
               <Label htmlFor="price" className="text-right">
-                Price ($)
+                Price 
               </Label>
               <Input
                 id="price"

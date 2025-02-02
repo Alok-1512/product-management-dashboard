@@ -1,44 +1,18 @@
-/* eslint-disable no-unused-vars */
-import React from 'react'
-// import { Button } from '@/components/ui/button'
-// import { Input } from '@/components/ui/input'
-// import {
-//   Table,
-//   TableBody,
-//   TableCell,
-//   TableHead,
-//   TableHeader,
-//   TableRow,
-// } from '@/components/ui/table'
-
-// import {
-//   Popover,
-//   PopoverContent,
-//   PopoverTrigger,
-// } from '@/components/ui/popover'
-// import {
-//   Select,
-//   SelectContent,
-//   SelectItem,
-//   SelectTrigger,
-//   SelectValue,
-// } from '@/components/ui/select'
-// import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-// import { Plus, Search, MoreVertical, Pencil, Trash2 } from 'lucide-react'
-// import AddProduct from '@/components/ui/custom/addProduct'
-// import DeleteProduct from './components/ui/custom/DeleteProduct'
-// import EditProduct from './components/ui/custom/EditProduct'
-// import PaginationComponent from './components/ui/custom/PaginationComponent'
-// import ProductContext from './context/ProductContext'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import ProductContextProvider from './context/ProductContextProvider'
-import ProductDashboard from './ProductDashboard'
+import ProductDashboard from './Pages/ProductDashboard'
+import About from './Pages/About'
 
 const App = () => {
-
   return (
-    <ProductContextProvider>
-     <ProductDashboard />
-    </ProductContextProvider>
+    <Router>
+      <ProductContextProvider>
+        <Routes>
+          <Route path="/" element={<ProductDashboard />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </ProductContextProvider>
+    </Router>
   )
 }
 

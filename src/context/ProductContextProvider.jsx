@@ -46,7 +46,7 @@ const ProductContextProvider = ({ children }) => {
       category: 'Audio',
       description:
         'Portable Bluetooth speaker with deep bass, IPX7 waterproof rating, and long battery life.',
-      image: 'https://images.unsplash.com/photo-1517430816045-df4b7de11d1b',
+      image: 'https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZXRvb3RoJTIwc3BlYWtlcnxlbnwwfHwwfHx8MA%3D%3D',
     },
     {
       id: 6,
@@ -55,7 +55,7 @@ const ProductContextProvider = ({ children }) => {
       category: 'Photography',
       description:
         'Professional DSLR camera with 24MP sensor, 4K video recording, and built-in WiFi.',
-      image: 'https://images.unsplash.com/photo-1519183071298-a2962d048cb0',
+      image: 'https://images.unsplash.com/photo-1495707902641-75cac588d2e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZHNscnxlbnwwfHwwfHx8MA%3D%3D',
     },
     {
       id: 7,
@@ -64,7 +64,7 @@ const ProductContextProvider = ({ children }) => {
       category: 'Personal Care',
       description:
         'Rechargeable electric toothbrush with multiple cleaning modes and soft bristles.',
-      image: 'https://images.unsplash.com/photo-1588776814546-1c87c6a8bb15',
+      image: 'https://images.unsplash.com/photo-1559591937-abc5678da6ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZWxlY3RyaWMlMjB0b290aGJydXNofGVufDB8fDB8fHww',
     },
     {
       id: 8,
@@ -73,7 +73,7 @@ const ProductContextProvider = ({ children }) => {
       category: 'Footwear',
       description:
         'Lightweight running shoes with memory foam soles, perfect for Indian roads.',
-      image: 'https://images.unsplash.com/photo-1528701800488-621f29e3c0f3',
+      image: 'https://images.unsplash.com/photo-1562183241-840b8af0721e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHJ1bm5pbmclMjBzaG9lc3xlbnwwfHwwfHx8MA%3D%3D',
     },
     {
       id: 9,
@@ -82,7 +82,7 @@ const ProductContextProvider = ({ children }) => {
       category: 'Accessories',
       description:
         'Spacious backpack with multiple compartments, ideal for college students and travelers.',
-      image: 'https://images.unsplash.com/photo-1591035897812-31c3c9e8a1a7',
+      image: 'https://images.unsplash.com/photo-1577733975197-3b950ca5cabe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YmFja3BhY2t8ZW58MHx8MHx8fDA%3D',
     },
     {
       id: 10,
@@ -100,7 +100,7 @@ const ProductContextProvider = ({ children }) => {
       category: 'Electronics',
       description:
         'Next-gen gaming console with immersive graphics, high FPS, and multiplayer support.',
-      image: 'https://images.unsplash.com/photo-1606813901444-6f6a7a6ef3f4',
+      image: 'https://images.unsplash.com/photo-1592840496694-26d035b52b48?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2FtaW5nJTIwY29uc29sZXxlbnwwfHwwfHx8MA%3D%3D',
     },
     {
       id: 12,
@@ -109,7 +109,7 @@ const ProductContextProvider = ({ children }) => {
       category: 'Electronics',
       description:
         'Lightweight e-reader with adjustable warm lighting and support for Indian languages.',
-      image: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c',
+      image: 'https://images.unsplash.com/photo-1456953180671-730de08edaa7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGUlMjByZWFkZXJ8ZW58MHx8MHx8fDA%3D',
     },
     {
       id: 13,
@@ -118,7 +118,7 @@ const ProductContextProvider = ({ children }) => {
       category: 'Wearables',
       description:
         'Slim fitness tracker with step count, heart rate monitoring, and yoga tracking mode.',
-      image: 'https://images.unsplash.com/photo-1519861531864-7e2c6b7c8a24',
+      image: 'https://images.unsplash.com/photo-1609096458733-95b38583ac4e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zml0bmVzcyUyMHdhdGNofGVufDB8fDB8fHww',
     },
     {
       id: 14,
@@ -127,7 +127,7 @@ const ProductContextProvider = ({ children }) => {
       category: 'Home Automation',
       description:
         'Smart AC thermostat with remote control via mobile app, great for Indian summers.',
-      image: 'https://images.unsplash.com/photo-1582719478250-1c4a2b9bda8e',
+      image: 'https://images.unsplash.com/photo-1596522681672-a5125bcb412a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGhlcm1vc3RhdHxlbnwwfHwwfHx8MA%3D%3D',
     },
     {
       id: 15,
@@ -136,7 +136,7 @@ const ProductContextProvider = ({ children }) => {
       category: 'Electronics',
       description:
         'Ultra HD 4K smart TV with OTT apps, voice control, and Dolby Atmos sound.',
-      image: 'https://images.unsplash.com/photo-1587825140400-7ef467c5a9bf',
+      image: 'https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c21hcnQlMjB0dnxlbnwwfHwwfHx8MA%3D%3D',
     },
     {
       id: 16,
@@ -145,7 +145,7 @@ const ProductContextProvider = ({ children }) => {
       category: 'Kitchen Appliances',
       description:
         '1.5L stainless steel electric kettle with auto shut-off and fast boiling feature.',
-      image: 'https://images.unsplash.com/photo-1582719478148-9f007689e2f4',
+      image: 'https://images.unsplash.com/photo-1647619124290-10fb9273b4b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGVsZWN0cmljJTIwa2V0dGxlfGVufDB8fDB8fHww',
     },
     {
       id: 17,
@@ -154,7 +154,7 @@ const ProductContextProvider = ({ children }) => {
       category: 'Home Office',
       description:
         'Adjustable LED desk lamp with three brightness levels, ideal for study and work.',
-      image: 'https://images.unsplash.com/photo-1582719478250-1c4a2b9bda8e',
+      image: 'https://plus.unsplash.com/premium_photo-1672166939591-b2547bd18fca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fExFRCUyMGRlc2slMjBsYW1wfGVufDB8fDB8fHww',
     },
   ])
 

@@ -9,7 +9,7 @@ import {
 } from '@/components/ui/select'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Search } from 'lucide-react'
-import AddProduct from '@/components/ui/custom/addProduct'
+import AddProduct from '../components/ui/custom/AddProduct'
 import ProductContext from '../context/ProductContext'
 import PaginationComponent from '../components/ui/custom/PaginationComponent'
 import ProductTable from '../components/ui/custom/ProductTables'
